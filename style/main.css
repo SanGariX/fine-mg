@@ -362,6 +362,9 @@ html {
     max-width: 100%;
     padding-bottom: calc(var(--index) * 1.4);
   }
+  .header__grid__primary img {
+    border-radius: 15~px;
+  }
   .header__img1 {
     width: calc(var(--index) * 33);
   }
