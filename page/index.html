@@ -21,6 +21,12 @@
     <header class="header">
       <div class="container">
         <nav class="header__nav">
+          <input
+            class="open__checkbox"
+            type="checkbox"
+            id="burgerbtn"
+            style="display: none"
+          />
           <a href="#" class="header__logo">
             <img src="../img/logo-min.svg" alt="logo" />
             <h1 class="header__logo__text">Grid</h1>
@@ -28,28 +34,35 @@
           <!-- ul.header__list>li.header__list__item*4>a.header__list__link[href=#] -->
           <ul class="header__list">
             <li class="header__list__item">
-              <a href="#" class="header__list__link active">How it works</a>
+              <a href="#" class="header__list__link active description"
+                >How it works</a
+              >
             </li>
             <li class="header__list__item">
-              <a href="#" class="header__list__link">Who we are</a>
+              <a href="#" class="header__list__link description">Who we are</a>
             </li>
             <li class="header__list__item">
-              <a href="#" class="header__list__link">What we do</a>
+              <a href="#" class="header__list__link description">What we do</a>
             </li>
             <li class="header__list__item">
-              <a href="#" class="header__list__link">Contact us</a>
+              <a href="#" class="header__list__link description">Contact us</a>
             </li>
           </ul>
-          <button class="header__btn btn">Sign In</button>
+          <button class="header__btn btn description">Sign In</button>
+          <div class="open__btn">
+            <label class="open__btn__label" for="burgerbtn">
+              <img src="../img/open.svg" alt="" />
+            </label>
+          </div>
         </nav>
       </div>
       <main class="header__main">
         <div class="container">
-          <h2 class="header__title title">
+          <h2 class="header__primary__title title">
             <strong>Combine <span>fine</span> images</strong>
             To represent a product
           </h2>
-          <div class="header__grid">
+          <div class="header__grid__primary">
             <p class="header__text left description">
               Use mixed grid with imagery, replace with your own photos and
               descriptions
@@ -86,10 +99,56 @@
               class="header__img7"
             />
           </div>
-          <button class="main__header__btn btn">Learn more</button>
+          <h2 class="header__secondary__title title">
+            Combine
+            <strong><span>Cool</span> images</strong>
+          </h2>
+          <p class="header__mobile__text">
+            To create any grid by scaling and resizing
+          </p>
+          <div class="header__grid__secondary">
+            <img
+              src="../img/tomado.jpg"
+              alt="businase people"
+              class="header__img__secondary1"
+            />
+            <img
+              src="../img/problem.jpg"
+              alt="no problem!"
+              class="header__img__secondary2"
+            />
+            <img
+              src="../img/time.jpg"
+              alt="your wake"
+              class="header__img__secondary3"
+            />
+            <img
+              src="../img/plant.jpg"
+              alt="caption here"
+              class="header__img__secondary4"
+            />
+            <img
+              src="../img/flower.jpg"
+              alt="flover"
+              class="header__img__secondary5"
+            />
+            <img
+              src="../img/brign.jpg"
+              alt="the process"
+              class="header__img__secondary6"
+            />
+            <img
+              src="../img/epilaps.jpg"
+              alt="epilapse"
+              class="header__img__secondary7"
+            />
+            <button class="main__header__btn btn">Learn more</button>
+          </div>
+          <button class="main__header__btn btn disabel">Learn more</button>
         </div>
       </main>
     </header>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <main class="main"></main>
     <footer class="footer"></footer>
   </body>
