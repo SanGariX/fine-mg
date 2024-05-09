@@ -49,6 +49,7 @@ input,
 button,
 textarea {
   font-family: inherit;
+  background-color: inherit;
 }
 input::-ms-clear {
   display: none;
@@ -83,5 +84,8 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+b {
+  font-weight: normal;
 }
 /*--------------------*/
